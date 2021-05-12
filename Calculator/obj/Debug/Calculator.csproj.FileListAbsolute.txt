@@ -8,3 +8,13 @@ C:\Users\YGN\source\repos\Calculator\Calculator\obj\Debug\Calculator.csproj.Gene
 C:\Users\YGN\source\repos\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
 C:\Users\YGN\source\repos\Calculator\Calculator\obj\Debug\Calculator.exe
 C:\Users\YGN\source\repos\Calculator\Calculator\obj\Debug\Calculator.pdb
+C:\Users\YGN\source\repos\Calculator-HW\Calculator\bin\Debug\Calculator.exe.config
+C:\Users\YGN\source\repos\Calculator-HW\Calculator\bin\Debug\Calculator.exe
+C:\Users\YGN\source\repos\Calculator-HW\Calculator\bin\Debug\Calculator.pdb
+C:\Users\YGN\source\repos\Calculator-HW\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+C:\Users\YGN\source\repos\Calculator-HW\Calculator\obj\Debug\Calculator.FormMain.resources
+C:\Users\YGN\source\repos\Calculator-HW\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+C:\Users\YGN\source\repos\Calculator-HW\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+C:\Users\YGN\source\repos\Calculator-HW\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\YGN\source\repos\Calculator-HW\Calculator\obj\Debug\Calculator.exe
+C:\Users\YGN\source\repos\Calculator-HW\Calculator\obj\Debug\Calculator.pdb

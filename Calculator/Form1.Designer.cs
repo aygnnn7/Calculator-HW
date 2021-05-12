@@ -114,7 +114,7 @@ namespace Calculator
             this.btnDivide.TabIndex = 19;
             this.btnDivide.Text = "÷";
             this.btnDivide.UseVisualStyleBackColor = false;
-            this.btnDivide.Click += new System.EventHandler(this.btnDivide_Click);
+            this.btnDivide.Click += new System.EventHandler(this.basicFunction_Click);
             // 
             // btnSqrt
             // 
@@ -133,7 +133,7 @@ namespace Calculator
             this.btnSqrt.TabIndex = 18;
             this.btnSqrt.Text = "√x";
             this.btnSqrt.UseVisualStyleBackColor = false;
-            this.btnSqrt.Click += new System.EventHandler(this.btnSqrt_Click);
+            this.btnSqrt.Click += new System.EventHandler(this.sqrFunc_Click);
             // 
             // btnClear
             // 
@@ -209,9 +209,9 @@ namespace Calculator
             this.btnMultiply.Name = "btnMultiply";
             this.btnMultiply.Size = new System.Drawing.Size(187, 82);
             this.btnMultiply.TabIndex = 14;
-            this.btnMultiply.Text = " ×";
+            this.btnMultiply.Text = "×";
             this.btnMultiply.UseVisualStyleBackColor = false;
-            this.btnMultiply.Click += new System.EventHandler(this.btnMultiply_Click);
+            this.btnMultiply.Click += new System.EventHandler(this.basicFunction_Click);
             // 
             // btnSub
             // 
@@ -230,7 +230,7 @@ namespace Calculator
             this.btnSub.TabIndex = 13;
             this.btnSub.Text = "-";
             this.btnSub.UseVisualStyleBackColor = false;
-            this.btnSub.Click += new System.EventHandler(this.btnSub_Click);
+            this.btnSub.Click += new System.EventHandler(this.basicFunction_Click);
             // 
             // btnAdd
             // 
@@ -247,9 +247,9 @@ namespace Calculator
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(187, 82);
             this.btnAdd.TabIndex = 12;
-            this.btnAdd.Text = " +";
+            this.btnAdd.Text = "+";
             this.btnAdd.UseVisualStyleBackColor = false;
-            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            this.btnAdd.Click += new System.EventHandler(this.basicFunction_Click);
             // 
             // btnEqual
             // 
@@ -264,7 +264,7 @@ namespace Calculator
             this.btnEqual.Name = "btnEqual";
             this.btnEqual.Size = new System.Drawing.Size(187, 82);
             this.btnEqual.TabIndex = 11;
-            this.btnEqual.Text = " =";
+            this.btnEqual.Text = "=";
             this.btnEqual.UseVisualStyleBackColor = false;
             this.btnEqual.Click += new System.EventHandler(this.btnEqual_Click);
             // 
@@ -285,7 +285,7 @@ namespace Calculator
             this.btnPow.TabIndex = 10;
             this.btnPow.Text = "x²";
             this.btnPow.UseVisualStyleBackColor = false;
-            this.btnPow.Click += new System.EventHandler(this.btnPow_Click);
+            this.btnPow.Click += new System.EventHandler(this.sqrFunc_Click);
             // 
             // btn0
             // 
@@ -305,7 +305,7 @@ namespace Calculator
             this.btn0.TabIndex = 9;
             this.btn0.Text = "0";
             this.btn0.UseVisualStyleBackColor = false;
-            this.btn0.Click += new System.EventHandler(this.btn0_Click);
+            this.btn0.Click += new System.EventHandler(this.btnNum_Click);
             // 
             // btn9
             // 
@@ -323,8 +323,9 @@ namespace Calculator
             this.btn9.Name = "btn9";
             this.btn9.Size = new System.Drawing.Size(187, 82);
             this.btn9.TabIndex = 8;
-            this.btn9.Text = " 9";
+            this.btn9.Text = "9";
             this.btn9.UseVisualStyleBackColor = false;
+            this.btn9.Click += new System.EventHandler(this.btnNum_Click);
             // 
             // btn8
             // 
@@ -342,9 +343,9 @@ namespace Calculator
             this.btn8.Name = "btn8";
             this.btn8.Size = new System.Drawing.Size(187, 82);
             this.btn8.TabIndex = 7;
-            this.btn8.Text = " 8";
+            this.btn8.Text = "8";
             this.btn8.UseVisualStyleBackColor = false;
-            this.btn8.Click += new System.EventHandler(this.btn8_Click);
+            this.btn8.Click += new System.EventHandler(this.btnNum_Click);
             // 
             // btn7
             // 
@@ -362,9 +363,9 @@ namespace Calculator
             this.btn7.Name = "btn7";
             this.btn7.Size = new System.Drawing.Size(187, 82);
             this.btn7.TabIndex = 6;
-            this.btn7.Text = " 7";
+            this.btn7.Text = "7";
             this.btn7.UseVisualStyleBackColor = false;
-            this.btn7.Click += new System.EventHandler(this.btn7_Click);
+            this.btn7.Click += new System.EventHandler(this.btnNum_Click);
             // 
             // btn6
             // 
@@ -382,9 +383,9 @@ namespace Calculator
             this.btn6.Name = "btn6";
             this.btn6.Size = new System.Drawing.Size(187, 82);
             this.btn6.TabIndex = 5;
-            this.btn6.Text = " 6";
+            this.btn6.Text = "6";
             this.btn6.UseVisualStyleBackColor = false;
-            this.btn6.Click += new System.EventHandler(this.btn6_Click);
+            this.btn6.Click += new System.EventHandler(this.btnNum_Click);
             // 
             // btn5
             // 
@@ -402,9 +403,9 @@ namespace Calculator
             this.btn5.Name = "btn5";
             this.btn5.Size = new System.Drawing.Size(187, 82);
             this.btn5.TabIndex = 4;
-            this.btn5.Text = " 5";
+            this.btn5.Text = "5";
             this.btn5.UseVisualStyleBackColor = false;
-            this.btn5.Click += new System.EventHandler(this.btn5_Click);
+            this.btn5.Click += new System.EventHandler(this.btnNum_Click);
             // 
             // btn4
             // 
@@ -422,9 +423,9 @@ namespace Calculator
             this.btn4.Name = "btn4";
             this.btn4.Size = new System.Drawing.Size(187, 82);
             this.btn4.TabIndex = 3;
-            this.btn4.Text = " 4";
+            this.btn4.Text = "4";
             this.btn4.UseVisualStyleBackColor = false;
-            this.btn4.Click += new System.EventHandler(this.btn4_Click);
+            this.btn4.Click += new System.EventHandler(this.btnNum_Click);
             // 
             // btn3
             // 
@@ -442,9 +443,9 @@ namespace Calculator
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(187, 82);
             this.btn3.TabIndex = 2;
-            this.btn3.Text = " 3";
+            this.btn3.Text = "3";
             this.btn3.UseVisualStyleBackColor = false;
-            this.btn3.Click += new System.EventHandler(this.btn3_Click);
+            this.btn3.Click += new System.EventHandler(this.btnNum_Click);
             // 
             // btn2
             // 
@@ -462,9 +463,9 @@ namespace Calculator
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(187, 82);
             this.btn2.TabIndex = 1;
-            this.btn2.Text = " 2";
+            this.btn2.Text = "2";
             this.btn2.UseVisualStyleBackColor = false;
-            this.btn2.Click += new System.EventHandler(this.btn2_Click);
+            this.btn2.Click += new System.EventHandler(this.btnNum_Click);
             // 
             // btn1
             // 
@@ -482,9 +483,9 @@ namespace Calculator
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(187, 82);
             this.btn1.TabIndex = 0;
-            this.btn1.Text = " 1";
+            this.btn1.Text = "1";
             this.btn1.UseVisualStyleBackColor = false;
-            this.btn1.Click += new System.EventHandler(this.btn1_Click);
+            this.btn1.Click += new System.EventHandler(this.btnNum_Click);
             // 
             // btnMMinus
             // 
@@ -506,7 +507,7 @@ namespace Calculator
             this.btnMMinus.TabIndex = 23;
             this.btnMMinus.Text = "M-";
             this.btnMMinus.UseVisualStyleBackColor = false;
-            this.btnMMinus.Click += new System.EventHandler(this.btnMMinus_Click);
+            this.btnMMinus.Click += new System.EventHandler(this.memorize_Click);
             // 
             // btnMR
             // 
@@ -551,7 +552,7 @@ namespace Calculator
             this.btnMPlus.TabIndex = 21;
             this.btnMPlus.Text = "M+";
             this.btnMPlus.UseVisualStyleBackColor = false;
-            this.btnMPlus.Click += new System.EventHandler(this.btnMPlus_Click);
+            this.btnMPlus.Click += new System.EventHandler(this.memorize_Click);
             // 
             // btnMC
             // 
